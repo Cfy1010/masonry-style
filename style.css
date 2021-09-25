@@ -1,0 +1,37 @@
+.msonryholder {
+  border: 1px solid red;
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.masonryblocks {
+    display: inline-block;
+    background: #ebeded;
+    padding: 20px;
+    margin: 0 0 15px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:768px){
+    .msonryholder {
+        column-count: 1;
+    }
+}
+@media screen and (min-width:769px){
+    .msonryholder {
+        column-count: 2;
+    }
+}
+@media screen and (min-width:1080px){
+    .msonryholder {
+        column-count: 3;
+    }
+}
+@media screen and (min-width:1200px){
+    .msonryholder {
+        column-count: 4;
+    }
+}
+
+
